@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/patient?useSSL=false
+    username: root
+    password: KAVITARAJ1105@tu
+
+
+  #JPA SETTINGS
+  jpa.hibernate.ddl-auto: create
+
+
